@@ -1,0 +1,16 @@
+httpx>=0.27
+pydantic>=2.6
+python-dotenv>=1.0
+tqdm>=4.66
+pandas>=2.2
+# Competitor / web-page fetching (src/web_fetch.py). Plain Fetcher needs no browser install.
+scrapling[fetchers]>=0.3
+
+# Later stages (Day 3-5), install when you get there:
+anthropic
+sentence-transformers
+scikit-learn
+hdbscan
+umap-learn
+openai
+ddgs
